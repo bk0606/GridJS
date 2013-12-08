@@ -2,11 +2,11 @@
  * Create by Albert on 08.12.13
  */
 
-var greddApp = greddApp || {};
+var GridJS = GridJS || {};
 
 (function () {
 
-    greddApp.gridView = function () {
+    GridJS.gridView = function () {
 
         function Field(rows, cols) {
 
@@ -21,7 +21,7 @@ var greddApp = greddApp || {};
         Cell.prototype.select = function () {};
 
         return {
-            field: Field
+            Field: Field
         };
     }
 

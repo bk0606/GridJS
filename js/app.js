@@ -4,25 +4,23 @@
  * @author Albert Bikeev
  */
 
-var greddApp = greddApp || {};
+var GridJS = GridJS || {};
 
 require.config({
     baseUrl: './js',
     paths: {
-        controller: 'controllers/base-controller',
-        model: 'models/base-model',
-        view: 'views/base-view'
+        controller: 'controllers/grid-controller',
+        model: 'models/grid-model',
+        view: 'views/grid-view'
     }
 });
 
 require(['controller', 'model', 'view'], function() {
-
-    var view  = new greddApp.gridView(),
-        model = new greddApp.gridModel(),
-        controller = new greddApp.gridController(view, model);
+    var view  = new GridJS.gridView(),
+        model = new GridJS.gridModel(),
+        controller = new GridJS.gridController(view, model);
 
     controller.init();
 
-    console.log(greddApp);
-
+    console.log(GridJS);
 });

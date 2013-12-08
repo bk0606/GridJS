@@ -2,10 +2,10 @@
  * Create by Albert on 08.12.13
  */
 
-var greddApp = greddApp || {};
+var GridJS = GridJS || {};
 
 (function () {
 
-    greddApp.gridModel = function () {}
+    GridJS.gridModel = function () {}
 
 }());

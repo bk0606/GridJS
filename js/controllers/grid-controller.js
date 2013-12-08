@@ -2,11 +2,11 @@
  * Created by Albert on 08.12.13.
  */
 
-var greddApp = greddApp || {};
+var GridJS = GridJS || {};
 
 (function () {
 
-    greddApp.gridController = function (view, model) {
+    GridJS.gridController = function (view, model) {
 
         function init() {}
 
