@@ -887,8 +887,8 @@ jasmine.Env.prototype.compareRegExps_ = function(a, b, mismatchKeys, mismatchVal
   if (a.ignoreCase != b.ignoreCase)
     mismatchValues.push("expected modifier i was" + (b.ignoreCase ? " " : " not ") + "set and does not equal the origin modifier");
 
-  if (a.global != b.global)
-    mismatchValues.push("expected modifier g was" + (b.global ? " " : " not ") + "set and does not equal the origin modifier");
+  if (a.sheetsHandle != b.sheetsHandle)
+    mismatchValues.push("expected modifier g was" + (b.sheetsHandle ? " " : " not ") + "set and does not equal the origin modifier");
 
   if (a.multiline != b.multiline)
     mismatchValues.push("expected modifier m was" + (b.multiline ? " " : " not ") + "set and does not equal the origin modifier");

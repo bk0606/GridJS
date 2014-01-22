@@ -322,7 +322,7 @@ var requirejs, require, define;
                             if (mapValue) {
                                 mapValue = getOwn(mapValue, nameSegment);
                                 if (mapValue) {
-                                    //Match, update name to the new value.
+                                    //Match, _update name to the new value.
                                     foundMap = mapValue;
                                     foundI = i;
                                     break;
@@ -1320,7 +1320,7 @@ var requirejs, require, define;
                 }
 
                 //If there are any "waiting to execute" modules in the registry,
-                //update the maps for them, since their info, like URLs to load,
+                //_update the maps for them, since their info, like URLs to load,
                 //may have changed.
                 eachProp(registry, function (mod, id) {
                     //If module already has init called, since it is too
