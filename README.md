@@ -2,4 +2,4 @@
 
 ## [Demo](https://kell18.github.io/some-projects/GridJS/index.html)
 
-Simple JavaScript extensible table.
+JavaScript extensible table.
